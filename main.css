@@ -1,0 +1,82 @@
+.button{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  } 
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  section {
+    background-color: rgb(33, 33, 33);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    width: 90%;
+    max-width: 400px;
+    background-color: rgb(18, 18, 18);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .display {
+    background-color: rgb(133, 133, 133);
+    height: 100px;
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+    font-size: 30px;
+    position: relative;
+  }
+  .display-1 {
+    opacity: 0.4;
+    font-size: 20px;
+    height: 20px;
+    overflow: hidden;
+  }
+  .temp-result {
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    font-size: 20px;
+    opacity: 0.3;
+  }
+  .all_button {
+    color: whitesmoke;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+  }
+  .button {
+    border: 0.5px solid rgba(92, 92, 92, 0.137);
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: rgb(74, 74, 74);
+  }
+  .button:active {
+    background-color: rgb(125, 125, 125);
+  }
+
+
+
+  .btn-0 {
+    grid-column: 1/3;
+  }
+  
